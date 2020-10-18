@@ -1,0 +1,21 @@
+  .comfort {
+    margin: 30rpx;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  .title {
+    margin-bottom: 20rpx;
+  }
+  .comfort-content {
+    display: flex;
+    height: 150px;
+  }
+  .air-humidity {
+    flex: 1;
+    text-align: center;
+  }
+  .circle {
+    padding-top: 15px;
+  }
+  .comfort-detail {
+    width: 40%;
+  }

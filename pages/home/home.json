@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "head": "/components/head/head",
+    "today-weather-detail": "/components/todyweadetail/today_weather_detail",
+    "next-7day-weather": "/components/next7dayweather/next_7day_weather",
+    "weather-quality": "/components/weatherquality/weather_quality",
+    "comfort": "/components/comfort/comfort",
+    "wind-direction": "/components/winddirection/wind_direction"
+    
+  }
+}

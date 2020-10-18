@@ -1,0 +1,8 @@
+<view class="next-seven-days">
+  <view wx:for="{{weather_7day}}" wx:key="index1" class="item">
+    <view class="date">{{Month}}月{{item.day}}</view>
+    <view class="weather-img">{{item.wea}}</view>
+    <view class="temperature">{{item.tem1}} / {{item.tem2}}</view>
+  </view>
+  <view class="more">查看多天预报</view>
+</view>

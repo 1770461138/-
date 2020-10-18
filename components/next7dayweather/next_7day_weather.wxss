@@ -1,0 +1,25 @@
+  .next-seven-days {
+    line-height: 88rpx;
+    margin: 0 30rpx 0 30rpx;
+  }
+  .item {
+    border-top: 1px solid rgb(221, 221, 221);
+    display: flex;
+    font-size: 32rpx; 
+  }
+  .date {
+    width: 45%;
+  }
+  .weather-img {
+    flex: 1;
+  }
+  .temperature {
+    width: 30%;
+    text-align: right; 
+  }
+  .more {
+    border-bottom: 1px solid rgb(221, 221, 221);
+    border-top: 1px solid rgb(221, 221, 221);
+    font-size: 36rpx;
+    text-align: center;
+  }

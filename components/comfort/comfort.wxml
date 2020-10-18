@@ -1,0 +1,17 @@
+<view class="comfort">
+  <wxs scr="../../wxs/imgfilter.wxs" module="filter"></wxs>
+  <view class="title">舒适度</view>
+  <view class="comfort-content">
+    <view class=air-humidity">
+      <view style="text-align:center">空气湿度</view>
+        <view class="circle">
+          <van-circle 
+            value="{{humidity}}" 
+            color="blue"
+            text="{{humidity}}%" 
+            layer-color="#f7f7f7"/>
+        </view>
+      </view>
+    <view class="comfort-detail">体感温度 28</view>
+  </view>
+</view>

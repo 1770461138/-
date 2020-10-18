@@ -1,0 +1,30 @@
+<view id="home">
+  <head 
+    nowcity="{{nowcity}}"
+    nowtemperature="{{nowtemperature}}"
+    maxtem="{{maxtem}}"
+    mintem="{{mintem}}"
+    nowweather="{{nowweather}}"
+    airlevel="{{airlevel}}"
+    updatetime="{{updatetime}}"
+    bind:myevent="onMyEvent">
+  </head>
+  <today-weather-detail 
+    weather_24hour="{{weather_24hour}}">
+  </today-weather-detail>
+  <next-7day-weather 
+    weather_7day="{{weather_7day}}" 
+    Month="{{Month}}">
+  </next-7day-weather>
+  <weather-quality 
+    airquality="{{airquality}}">
+  </weather-quality>
+  <comfort 
+    humidity="{{humidity}}">
+  </comfort>
+  <wind-direction 
+    wind="{{wind}}" 
+    wind_speed="{{wind_speed}}">
+  </wind-direction>
+  <view style="text-align:center;padding-bottom:20px;font-size:28rpx">关于天气与隐私声明</view>
+</view>

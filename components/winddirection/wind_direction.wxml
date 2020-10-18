@@ -1,0 +1,12 @@
+<view class="wind-direction">
+  <view class="title">风力风向</view>
+  <view class="wind-direction-content">
+    <view class="wind">
+      <image src="/assets/img/wind.png" class="img"></image>
+    </view>
+    <view class="wind-direction-detail">
+      <view style="margin:25px 0 20px 0">风向 {{wind}}</view> 
+      <view>风力 {{wind_speed}}</view>
+    </view>
+  </view>
+</view>

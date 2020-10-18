@@ -1,0 +1,23 @@
+<view class="head">
+  <view class="nowcity" bindtap="onTap">
+    {{nowcity}}
+    <text style="font-size:12px" bindtap="pushto">[切换]</text>
+  </view>
+  <view>
+    <text style="font-size:100rpx">{{nowtemperature}}°C
+  </text>
+  </view>
+  <view style="padding-bottom:10rpx">
+    {{maxtem}}°C / {{mintem}}°C
+  </view>
+  <view class="air-level">
+    {{nowweather}}  空气{{airlevel}}
+  </view>
+  <view class="logo-time">
+      <view class="logo">
+        <image src="../../assets/img/logo.png" class="img"></image>
+        <view class="title">中国天气</view>
+      </view>
+      <view class="update-time">上次更新时间：{{updatetime}}</view>
+    </view>
+</view>

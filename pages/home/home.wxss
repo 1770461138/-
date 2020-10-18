@@ -1,0 +1,33 @@
+/* pages/home.wxss */
+
+  .comfort {
+    margin: 30rpx;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  .comfort .title {
+    margin-bottom: 20rpx;
+  }
+  .comfort-content {
+    display: flex;
+    height: 150px;
+  }
+  .air-humidity {
+    flex: 1;
+  }
+  .comfort-detail {
+    width: 40%;
+  }
+  .wind-direction {
+    margin: 30rpx;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  .wind-direction-content {
+    display: flex;
+    height: 150px;
+  }
+  .wind {
+    flex: 1;
+  }
+  .wind-direction-detail {
+    width: 40%;
+  }

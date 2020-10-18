@@ -1,0 +1,35 @@
+<view class="weather-quality">
+  <view class="title">空气质量</view>
+  <view class="weather-quality-content">
+    <view class="pollution-index">
+      <view style="text-align:center">污染指数</view>
+      <view class="circle">
+        <van-circle 
+          value="{{ airquality.air/500*100 }}" 
+          color="{{ gradientColor }}" 
+          text="{{airquality.air}}/500"
+          layer-color="#f7f7f7"
+        />
+      </view>
+      <view class="air-level">{{airquality.air_level}}</view>
+      </view>
+    <view class="pollution-index-detail">
+      <view class="name">
+        <view class="name-item">PM10</view>
+        <view class="name-item">PM2.5 </view>
+        <view class="name-item">NO<text style="font-size:20rpx">2</text></view>
+        <view class="name-item">SO<text style="font-size:20rpx">2</text></view>
+        <view class="name-item">O<text style="font-size:20rpx">3</text></view>
+        <view class="name-item">CO</view>
+      </view>
+      <view class="value">
+        <view class="value-item">{{airquality.pm10}}</view>
+        <view class="value-item">{{airquality.pm25}}</view>
+        <view class="value-item">{{airquality.no2}}</view>
+        <view class="value-item">{{airquality.so2}}</view>
+        <view class="value-item">{{airquality.o3}}</view>
+        <view class="value-item">{{airquality.co}}</view>
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,9 @@
+<view class="today-weather-detain">
+  <scroll-view scroll-x="true" class="wrapper">
+    <view wx:for="{{weather_24hour}}" class="item" wx:key="index">
+      <view class="time">{{item.hours}}</view>
+      <view class="weather-img">{{item.wea}}</view>
+      <view class="temperature">{{item.tem}}°C</view>
+    </view>
+  </scroll-view>
+</view>

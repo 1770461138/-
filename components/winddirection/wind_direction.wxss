@@ -1,0 +1,23 @@
+  .wind-direction {
+    margin: 30rpx;
+    padding-bottom: 30rpx;
+    border-bottom: 1px solid rgb(221, 221, 221);
+  }
+  .title {
+    margin-bottom: 20rpx;
+  }
+  .wind-direction-content {
+    display: flex;
+  }
+  .wind {
+    flex: 1;
+    text-align: center;
+  }
+  .img {
+    width: 100px;
+    height: 100px;
+  }
+  .wind-direction-detail {
+    width: 40%;
+    font-size: 30rpx;
+  }
